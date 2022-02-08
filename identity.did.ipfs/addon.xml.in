@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="identity.did.ipfs"
+  version="20.0.0"
+  name="InterPlanetary File System (IPFS)"
+  provider-name="Team Kodi">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension
+    point="kodi.identity.did"
+    library_@PLATFORM@="@LIBRARY_FILENAME@"/>
+  <extension point="xbmc.addon.metadata">
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/garbear/identity.did.ipfs</source>
+    <platform>@PLATFORM@</platform>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <summary lang="en_GB">InterPlanetary File System (IPFS)</summary>
+    <description lang="en_GB">Securely store identity on the InterPlanetary File System (IPFS).</description>
+  </extension>
+</addon>
